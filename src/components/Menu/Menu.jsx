@@ -1,4 +1,5 @@
 import DropDownMenu from "../DropDownMenu/DropDownMenu.jsx";
+import {Link} from "react-router-dom";
 
 const Menu = () => {
     return (
@@ -17,19 +18,19 @@ const Menu = () => {
                         <ul className='text-xl text-gray-600 font-semibold '>
 
                             <li className='p-4 rounded-lg hover:text-gray-800 hover:bg-indigo-200 hover:border-transparent'>
-                                <a href="/today">Today`s Tasks</a></li>
+                                <Link to='/today'>Today`s Tasks</Link></li>
 
                             <li className='p-4 rounded-lg hover:text-gray-800 hover:bg-indigo-200 hover:border-transparent'>
-                                <a href="/all">All Tasks</a></li>
+                                <Link to="/all">All Tasks</Link></li>
 
                             <li className='p-4 rounded-lg hover:text-gray-800 hover:bg-indigo-200 hover:border-transparent'>
-                                <a href="/important">Important Tasks</a></li>
+                                <Link to="/important">Important Tasks</Link></li>
 
                             <li className='p-4 rounded-lg hover:text-gray-800 hover:bg-indigo-200 hover:border-transparent'>
-                                <a href="/completed">Completed Tasks</a></li>
+                                <Link to="/completed">Completed Tasks</Link></li>
 
                             <li className='p-4 rounded-lg hover:text-gray-800 hover:bg-indigo-200 hover:border-transparent'>
-                                <a href="/uncompleted">Uncompleted Tasks</a></li>
+                                <Link to="/uncompleted">Uncompleted Tasks</Link></li>
                         </ul>
                     </div>
                 </div>

@@ -2,6 +2,7 @@
 
 // eslint-disable-next-line no-unused-vars
 import React, {useState} from 'react';
+import {Link} from "react-router-dom";
 
 const DropdownMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,13 +31,13 @@ const DropdownMenu = () => {
                         aria-orientation="vertical"
                         aria-labelledby="options-menu"
                     >
-                        <a
-                            href="/main"
+                        <Link
+                            to="/main"
                             className="block px-2 py-2 text-sm text-gray-700 hover:bg-indigo-200"
                             role="menuitem"
                         >
                             Main
-                        </a>
+                        </Link>
                     </div>
                 </div>
             )}

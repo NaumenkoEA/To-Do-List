@@ -3,7 +3,7 @@ const RightSection = () => {
         <div className='flex flex-col w-80 bg-amber-100'>
             <section className=''>
                 <div className='flex m-10 items-center justify-between'>
-                    <h1>Hi, User!</h1>
+                    <h1>Hi, Beglik!</h1>
                     <img src="/vite.svg" alt=""/>
                 </div>
             </section>
