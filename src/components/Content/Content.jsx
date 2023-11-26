@@ -6,7 +6,7 @@ const Content = () => {
           <header >
               <form action="">
                   <input type="search" placeholder='Search task'/>
-                  <button type='submit'><img className='' src="/search.svg" alt=""/></button>
+                  <button className='w-6' type='submit'><img className='' src="/search.svg" alt=""/></button>
               </form>
 
               <div className=''>

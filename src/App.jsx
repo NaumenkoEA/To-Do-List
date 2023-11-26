@@ -6,7 +6,7 @@ function App() {
 
 
     return (
-        <div className='flex flex-row '>
+        <div className='flex flex-row h-screen'>
 
             <Menu/>
             <Content/>
